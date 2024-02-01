@@ -28,6 +28,13 @@
   ],
   "packages": {
     "packages/config-eslint": "git@github.com:statewalker/statewalker-config-eslint.git",
-    "packages/config-typescript": "git@github.com:statewalker/statewalker-config-typescript.git"
+    "packages/config-typescript": "git@github.com:statewalker/statewalker-config-typescript.git",
+    "packages/statewalker-models": "git@github.com:statewalker/statewalker-models.git",
+    "packages/statewalker-extensions": "git@github.com:statewalker/statewalker-extensions.git",
+    "packages/statewalker-parse-observable": "git@github.com:statewalker/statewalker-parse-observable.git",
+    "packages/statewalker-resources": "git@github.com:statewalker/statewalker-resources.git#refactor-typescript",
+    "packages/statewalker-resources-browser": "git@github.com:statewalker/statewalker-resources-browser.git",
+    "packages/webrun-files": "git@github.com:statewalker/webrun-files.git",
+    "packages/webrun-git": "git@github.com:statewalker/webrun-git.git"
   }
 }
