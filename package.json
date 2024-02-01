@@ -29,6 +29,7 @@
   "packages": {
     "packages/config-eslint": "git@github.com:statewalker/statewalker-config-eslint.git",
     "packages/config-typescript": "git@github.com:statewalker/statewalker-config-typescript.git",
+    "packages/statewalker-logger": "git@github.com:statewalker/statewalker-logger.git",
     "packages/statewalker-models": "git@github.com:statewalker/statewalker-models.git",
     "packages/statewalker-extensions": "git@github.com:statewalker/statewalker-extensions.git",
     "packages/statewalker-parse-observable": "git@github.com:statewalker/statewalker-parse-observable.git",
