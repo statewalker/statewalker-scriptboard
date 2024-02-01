@@ -1,0 +1,33 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "clean": "turbo run clean",
+    "clone": "node ./scripts/preinstall.js",
+    "preinstall": "yarn clone",
+    "build": "turbo build",
+    "dev": "turbo dev --concurrency 30",
+    "lint": "turbo lint",
+    "test": "turbo test --concurrency 30",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "upgrade": "yarn upgrade-interactive --latest"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.27.1",
+    "@statewalker/eslint-config": "*",
+    "eslint": "^8.56.0",
+    "prettier": "^3.1.1",
+    "turbo": "latest"
+  },
+  "packageManager": "yarn@1.22.19",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "packages": {
+    "packages/config-eslint": "git@github.com:statewalker/statewalker-config-eslint.git",
+    "packages/config-typescript": "git@github.com:statewalker/statewalker-config-typescript.git"
+  }
+}
