@@ -2,9 +2,9 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "git": "mrgit",
+    "fetch": "mrgit sync",
     "clean": "turbo run clean",
-    "clone": "node ./scripts/preinstall.js",
-    "preinstall": "yarn clone",
     "build": "turbo build",
     "dev": "turbo dev --concurrency 30",
     "lint": "turbo lint",
@@ -15,6 +15,7 @@
     "upgrade": "yarn upgrade-interactive --latest"
   },
   "devDependencies": {
+    "mrgit": "^2.1.0",
     "@changesets/cli": "^2.27.1",
     "@statewalker/eslint-config": "*",
     "eslint": "^8.56.0",

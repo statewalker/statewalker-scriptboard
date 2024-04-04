@@ -1,0 +1,16 @@
+{
+  "packages": "./packages",
+  "resolverDirectoryName": "npm",
+  "resolverDefaultBranch": "main",
+  "dependencies": {
+    "config-eslint": "git@github.com:statewalker/statewalker-config-eslint.git",
+    "config-typescript": "git@github.com:statewalker/statewalker-config-typescript.git",
+    "statewalker-models": "git@github.com:statewalker/statewalker-models.git",
+    "statewalker-extensions": "git@github.com:statewalker/statewalker-extensions.git",
+    "statewalker-parse-observable": "git@github.com:statewalker/statewalker-parse-observable.git",
+    "statewalker-resources": "git@github.com:statewalker/statewalker-resources.git#refactor-typescript",
+    "statewalker-resources-browser": "git@github.com:statewalker/statewalker-resources-browser.git",
+    "webrun-files": "git@github.com:statewalker/webrun-files.git",
+    "webrun-git": "git@github.com:statewalker/webrun-git.git"
+  }
+}
